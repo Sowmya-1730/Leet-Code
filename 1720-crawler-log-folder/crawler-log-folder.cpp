@@ -2,7 +2,6 @@ class Solution {
 public:
     int minOperations(vector<string>& logs) {
         int cnt=0;
-        int initial = 1;
         for(int i=0;i<logs.size();i++)
         {
             if(logs[i]=="../")
